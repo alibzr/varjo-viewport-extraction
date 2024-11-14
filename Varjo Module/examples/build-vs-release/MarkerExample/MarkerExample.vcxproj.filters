@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\varjo-sdk\examples\MarkerExample\src\MarkerScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\MarkerExample\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\D3D11MultiLayerView.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\D3D11Renderer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\D3D11Shaders.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\Globals.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\MultiLayerView.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\Renderer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\Scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\SyncView.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\varjo-sdk\examples\MarkerExample\src\MarkerScene.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\MarkerExample\src\number_atlas_base64.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\D3D11MultiLayerView.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\D3D11Renderer.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\D3D11Shaders.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\ExampleShaders.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\Globals.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\MultiLayerView.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\Renderer.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\Scene.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\SyncView.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\varjo-sdk\examples\MarkerExample\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{527E4C14-068F-38BE-BDC4-825246170A6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A8B88CFF-3C4A-372B-82DC-A9A689BB95FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1FF089B9-759D-3AAF-A134-0C9A4AADDCB6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

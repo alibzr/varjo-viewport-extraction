@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\varjo-sdk\examples\GazeTrackingExample\src\Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\GazeTrackingExample\src\GazeTracking.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\GazeTrackingExample\src\UI.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\GazeTrackingExample\src\main.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\Session.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\varjo-sdk\examples\GazeTrackingExample\src\Application.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\GazeTrackingExample\src\Console.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\GazeTrackingExample\src\CsvWriter.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\GazeTrackingExample\src\GazeTracking.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\GazeTrackingExample\src\UI.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\Session.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\varjo-sdk\examples\GazeTrackingExample\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{27C67122-6DC3-3852-9D15-9207B709AB0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{9DBCBE69-80C6-3394-BF70-F47FD6C4D751}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

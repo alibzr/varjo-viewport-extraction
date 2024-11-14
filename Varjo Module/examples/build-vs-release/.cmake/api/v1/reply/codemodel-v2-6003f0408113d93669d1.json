@@ -1,0 +1,291 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "Benchmark",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Benchmark",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "EyeCameraStreamExample",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "EyeCameraStreamExample",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"build" : "GazeTrackingExample",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "GazeTrackingExample",
+					"targetIndexes" : 
+					[
+						2,
+						6
+					]
+				},
+				{
+					"build" : "MRExample",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MRExample",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "MarkerExample",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MarkerExample",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "ChromaKeyExample",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ChromaKeyExample",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "MaskingTool",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MaskingTool",
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "VarjoExamples",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "EyeCameraStreamExample",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "GazeTrackingExample",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-19ba06d567c4a5c883f8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@6b64f3c97bd042144035",
+					"jsonFile" : "target-ALL_BUILD-Release-ae4362a8e042b37c94a2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@e0bde65db6ca05890d6e",
+					"jsonFile" : "target-ALL_BUILD-Release-5be24232bb4f1279ef75.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Benchmark::@feccfa10c2bce73f578f",
+					"jsonFile" : "target-Benchmark-Release-48a38c3d7f9dcb60b334.json",
+					"name" : "Benchmark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ChromaKeyExample::@35f4a36f959aaebb8cf2",
+					"jsonFile" : "target-ChromaKeyExample-Release-86635dffb69d93512171.json",
+					"name" : "ChromaKeyExample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "EyeCameraStreamExample::@6b64f3c97bd042144035",
+					"jsonFile" : "target-EyeCameraStreamExample-Release-e3443f51aec3f03a2c16.json",
+					"name" : "EyeCameraStreamExample",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "GazeTrackingExample::@e0bde65db6ca05890d6e",
+					"jsonFile" : "target-GazeTrackingExample-Release-b2604e491b2bc2b19c90.json",
+					"name" : "GazeTrackingExample",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "MRExample::@1c279e17b71a27b5dbb6",
+					"jsonFile" : "target-MRExample-Release-bf4bb3ce28193137fbb6.json",
+					"name" : "MRExample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "MarkerExample::@1222208447b0f621de7b",
+					"jsonFile" : "target-MarkerExample-Release-bd04923d6136f594de8b.json",
+					"name" : "MarkerExample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "MaskingTool::@a9c4417c914526bd0461",
+					"jsonFile" : "target-MaskingTool-Release-2dfabfa189e63d9a7584.json",
+					"name" : "MaskingTool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-4d1e9006f39807ecca4a.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "copyLibs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copyLibs-Release-54af71c185549f4d5d24.json",
+					"name" : "copyLibs",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/varjo-sdk/examples/build-vs-release",
+		"source" : "C:/varjo-sdk/examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

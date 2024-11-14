@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\varjo-sdk\examples\MaskingTool\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\MaskingTool\src\AppLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\MaskingTool\src\AppView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\MaskingTool\src\MaskScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\MaskingTool\src\Objects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\MaskingTool\src\Presets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\D3D11MultiLayerView.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\D3D11Renderer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\D3D11Shaders.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\GfxContext.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\Globals.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\MarkerTracker.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\MultiLayerView.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\Renderer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\Scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\SyncView.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\varjo-sdk\examples\Common\UI.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\varjo-sdk\examples\MaskingTool\src\AppLogic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\MaskingTool\src\AppState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\MaskingTool\src\AppView.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\MaskingTool\src\MaskScene.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\MaskingTool\src\Objects.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\MaskingTool\src\Presets.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\D3D11MultiLayerView.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\D3D11Renderer.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\D3D11Shaders.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\ExampleShaders.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\GfxContext.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\Globals.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\MarkerTracker.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\MultiLayerView.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\Renderer.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\Scene.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\SyncView.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\varjo-sdk\examples\Common\UI.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\varjo-sdk\examples\MaskingTool\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\varjo-sdk\examples\MaskingTool\res\maskingtool-presets.json">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{9DBCBE69-80C6-3394-BF70-F47FD6C4D751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CE56567B-1E5B-3C59-8FEF-FEA12667335C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{A84AD2BD-CB6F-3380-AB22-E21AA2EE60EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5C41B232-E80B-3179-B99E-D385485076F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

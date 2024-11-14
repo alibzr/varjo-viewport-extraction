@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{25CC9CDC-0F8A-3E0F-A42F-B1CD0A471310}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Benchmark</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <VcpkgEnabled>false</VcpkgEnabled>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/varjo-sdk/examples/build-vs-debug/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\varjo-sdk\examples\build-vs-debug\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Benchmark.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Benchmark</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\varjo-sdk\examples\vendor\GLM\include;C:\varjo-sdk\examples\vendor\cxxopts\include;C:\varjo-sdk\examples\vendor\D3DX12\include;C:\varjo-sdk\examples\..\include;C:\varjo-sdk\examples\vendor\Glew\include;C:\varjo-sdk\examples\vendor\OpenVR\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_UNICODE;UNICODE;GLEW_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_UNICODE;UNICODE;GLEW_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\varjo-sdk\examples\vendor\GLM\include;C:\varjo-sdk\examples\vendor\cxxopts\include;C:\varjo-sdk\examples\vendor\D3DX12\include;C:\varjo-sdk\examples\..\include;C:\varjo-sdk\examples\vendor\Glew\include;C:\varjo-sdk\examples\vendor\OpenVR\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\varjo-sdk\examples\vendor\GLM\include;C:\varjo-sdk\examples\vendor\cxxopts\include;C:\varjo-sdk\examples\vendor\D3DX12\include;C:\varjo-sdk\examples\..\include;C:\varjo-sdk\examples\vendor\Glew\include;C:\varjo-sdk\examples\vendor\OpenVR\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/cpp/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/varjo-sdk/examples/build-vs-debug/bin/Benchmark.exe -installedDir C:/cpp/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\VarjoLib.lib;..\..\vendor\Glew\lib\x86_64\Debug\libglew32d.lib;..\..\vendor\OpenVR\lib\x86_64\Debug\openvr_api.lib;d3d11.lib;d3d12.lib;dxgi.lib;d3dcompiler.lib;opengl32.lib;dxguid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/varjo-sdk/examples/lib;C:/varjo-sdk/examples/lib/$(Configuration);C:/varjo-sdk/examples/vendor/Glew/lib/x86_64/Debug;C:/varjo-sdk/examples/vendor/Glew/lib/x86_64/Debug/$(Configuration);C:/varjo-sdk/examples/vendor/OpenVR/lib/x86_64/Debug;C:/varjo-sdk/examples/vendor/OpenVR/lib/x86_64/Debug/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/varjo-sdk/examples/build-vs-debug/Benchmark/Debug/Benchmark.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/varjo-sdk/examples/build-vs-debug/bin/Benchmark.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\varjo-sdk\examples\Benchmark\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/varjo-sdk/examples/Benchmark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/varjo-sdk/examples -BC:/varjo-sdk/examples/build-vs-debug --check-stamp-file C:/varjo-sdk/examples/build-vs-debug/Benchmark/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\varjo-sdk\examples\build-vs-debug\Benchmark\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\varjo-sdk\examples\Benchmark\src\Config.hpp" />
+    <ClCompile Include="C:\varjo-sdk\examples\Benchmark\src\D3D11Renderer.cpp" />
+    <ClInclude Include="C:\varjo-sdk\examples\Benchmark\src\D3D11Renderer.hpp" />
+    <ClCompile Include="C:\varjo-sdk\examples\Benchmark\src\D3D12Renderer.cpp" />
+    <ClInclude Include="C:\varjo-sdk\examples\Benchmark\src\D3D12Renderer.hpp" />
+    <ClCompile Include="C:\varjo-sdk\examples\Benchmark\src\D3DShaders.cpp" />
+    <ClInclude Include="C:\varjo-sdk\examples\Benchmark\src\D3DShaders.hpp" />
+    <ClCompile Include="C:\varjo-sdk\examples\Benchmark\src\GLRenderer.cpp" />
+    <ClInclude Include="C:\varjo-sdk\examples\Benchmark\src\GLRenderer.hpp" />
+    <ClCompile Include="C:\varjo-sdk\examples\Benchmark\src\GazeTracking.cpp" />
+    <ClInclude Include="C:\varjo-sdk\examples\Benchmark\src\GazeTracking.hpp" />
+    <ClCompile Include="C:\varjo-sdk\examples\Benchmark\src\Geometry.cpp" />
+    <ClInclude Include="C:\varjo-sdk\examples\Benchmark\src\Geometry.hpp" />
+    <ClCompile Include="C:\varjo-sdk\examples\Benchmark\src\GeometryGenerator.cpp" />
+    <ClInclude Include="C:\varjo-sdk\examples\Benchmark\src\GeometryGenerator.hpp" />
+    <ClCompile Include="C:\varjo-sdk\examples\Benchmark\src\IRenderer.cpp" />
+    <ClInclude Include="C:\varjo-sdk\examples\Benchmark\src\IRenderer.hpp" />
+    <ClCompile Include="C:\varjo-sdk\examples\Benchmark\src\OpenVRTracker.cpp" />
+    <ClInclude Include="C:\varjo-sdk\examples\Benchmark\src\OpenVRTracker.hpp" />
+    <ClInclude Include="C:\varjo-sdk\examples\Benchmark\src\Profiler.hpp" />
+    <ClCompile Include="C:\varjo-sdk\examples\Benchmark\src\VRSHelper.cpp" />
+    <ClInclude Include="C:\varjo-sdk\examples\Benchmark\src\VRSHelper.hpp" />
+    <ClInclude Include="C:\varjo-sdk\examples\Benchmark\src\Window.hpp" />
+    <ClCompile Include="C:\varjo-sdk\examples\Benchmark\src\Window.cpp" />
+    <ClCompile Include="C:\varjo-sdk\examples\Benchmark\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\varjo-sdk\examples\build-vs-debug\ZERO_CHECK.vcxproj">
+      <Project>{44F25F6F-3B2F-3DC7-B563-99D170B5BDB4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\varjo-sdk\examples\build-vs-debug\copyLibs.vcxproj">
+      <Project>{6881E3EF-A93B-3C3B-BD62-DE5EDDF54BC2}</Project>
+      <Name>copyLibs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
